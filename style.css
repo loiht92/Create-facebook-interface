@@ -1,0 +1,52 @@
+body{
+    height: 800px;
+    background-color: floralwhite;
+}
+header.header1{
+    padding: 5px;
+    background-color: greenyellow;
+    color: red;
+    height: 40px;
+    font-size: 25px;
+    text-align: center;
+    word-spacing: 5px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+
+}
+
+nav{
+    padding-top: 10px;
+    width: 15%;
+    height: 500px;
+    background-color: lemonchiffon;
+    color: blue;
+    float: left;
+    text-align: left;
+
+}
+#section{
+    padding-top: 5px;
+    width: 60%;
+    height: 500px;
+    background-color: bisque;
+    color: darkgreen;
+    float: left;
+}
+#aside{
+    padding-top: 5px;
+    width: 15%;
+    height: 500px;
+    background-color: floralwhite;
+    color: red;
+    float: left;
+}
+#aside footer{
+    padding-top: 300px;
+    text-align: center;
+}
+#aside, #section, nav{
+    padding: 15px;
+    margin-top: 25px;
+}
